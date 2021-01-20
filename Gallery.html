@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <style>
+            body {
+            font-size: 1.3em;
+            max-width: 960px;
+            margin: 0 auto;
+            }
+             
+            p {
+            font-size: 1em;
+            margin-top: 50px;
+            }
+             
+            h1 {
+            font-size: 2em;
+            }
+            
+            @media screen and (max-width: 1024px) {
+                body {
+                font-size: 1.2em;
+                }
+                }
+                 
+                @media screen and (max-width: 768px) {
+                body {
+                font-size: 1.1em;
+                }
+                }
+                 
+                @media screen and (max-width: 414px) {
+                body {
+                font-size: 1em;
+                }
+                }
+        
+
+            #container {
+                max-width: 960px;
+                width: 90%;
+                margin: 0 auto;
+                }
+            #row {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: flex-start;
+                }
+            #column {
+                flex-basis: 17%;
+                box-sizing: border-box;
+                padding: 8px;
+                }
+            #box {
+                border-radius: 10px;
+                background-color: lightblue;
+                }
+            #box:hover {
+                
+            }
+            div#box img {
+                width: 100%;
+                height: auto;
+               
+            }
+            div#desc {
+                padding: 5%;
+                text-align: center;
+                background-color:lightgrey;
+                color: white;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            
+            @media screen and (max-width: 1024px) {
+                #column {
+                flex-basis: 33.33%;
+                }
+                }
+                @media screen and (max-width: 768px) {
+                #column {
+                flex-basis: 50%;
+                }
+                }
+                @media screen and (max-width: 414px) {
+                #column {
+                flex-basis: 100%;
+                }
+                }           
+    </style>
+
+</head>
+<body>
+    <h1>Gallery Heading</h1>
+    <div id="container">
+    <div id="row">
+    <div id="column">              
+            <div id="box">
+                <a target="_blank" href="placeholder-image.png">
+                    <img src="placeholder-image.png" alt="picture">
+                  </a>
+                  <div id="desc">Image Title</div>
+            </div>
+        </div> 
+        <div id="column">              
+            <div id="box"> <a target="_blank" href="placeholder-image.png">
+                <img src="placeholder-image.png" alt="picture">
+              </a>
+              <div id="desc">Image Title</div></div>
+        </div> 
+        <div id="column">              
+            <div id="box"> <a target="_blank" href="placeholder-image.png">
+                <img src="placeholder-image.png" alt="picture">
+              </a>
+              <div id="desc">Image Title</div></div>
+        </div> 
+        <div id="column">              
+            <div id="box"> <a target="_blank" href="placeholder-image.png">
+                <img src="placeholder-image.png" alt="picture">
+              </a>
+              <div id="desc">Image Title</div></div>
+        </div> 
+        <div id="column">              
+            <div id="box"> <a target="_blank" href="placeholder-image.png">
+                <img src="placeholder-image.png" alt="picture">
+              </a>
+              <div id="desc">Image Title</div></div>
+        </div> 
+        <div id="column">              
+            <div id="box"> <a target="_blank" href="placeholder-image.png">
+                <img src="placeholder-image.png" alt="picture">
+              </a>
+              <div id="desc">Image Title</div></div>
+        </div> 
+        <div id="column">              
+            <div id="box"> <a target="_blank" href="placeholder-image.png">
+                <img src="placeholder-image.png" alt="picture">
+              </a>
+              <div id="desc">Image Title</div></div>
+        </div> 
+        <div id="column">              
+            <div id="box"> <a target="_blank" href="placeholder-image.png">
+                <img src="placeholder-image.png" alt="picture">
+              </a>
+              <div id="desc">Image Title</div></div>
+        </div> 
+        <div id="column">              
+            <div id="box"> <a target="_blank" href="placeholder-image.png">
+                <img src="placeholder-image.png" alt="picture">
+              </a>
+              <div id="desc">Image Title</div></div>
+        </div> 
+        <div id="column">              
+            <div id="box"> <a target="_blank" href="placeholder-image.png">
+                <img src="placeholder-image.png" alt="picture">
+              </a>
+              <div id="desc">Image Title</div></div>
+        </div> 
+
+        
+        </div>
+        </div>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Mauris nec ex et quam laoreet auctor eu finibus neque. Nam vulputate, leo at efficitur venenatis,
+            mi dolor imperdiet tellus, vitae pretium purus nunc sit amet risus. 
+            liquam congue risus sit amet pulvinar ultricies. Quisque malesuada mollis neque, 
+            eget vulputate nulla posuere ut. Praesent in pulvinar metus, ac fringilla nisl. 
+            Fusce bibendum eros ac commodo maximus. Donec porta rhoncus mollis. 
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Nunc molestie dolor ut nulla tempor tincidunt. Nulla a est neque. Curabitur hendrerit in lectus vitae malesuada.
+            Aliquam vel accumsan dolor, a cursus lorem. Cras nisl mauris, mattis at ante eget, ultricies dictum dolor. 
+            Praesent nisi urna, luctus et dapibus in, condimentum rutrum nibh.</p>
+</body>
+</html>
